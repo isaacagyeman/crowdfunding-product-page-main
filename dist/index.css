@@ -1,0 +1,33 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body{
+background-image: url('/assets/images/image-hero-desktop.jpg');
+background-repeat: no-repeat;
+}
+.navbar{
+display: flex;
+justify-content: space-between;
+align-items: center;
+/* border: solid chartreuse; */
+padding-top: 3.3em;
+padding-left: 9.5em;
+padding-right: 3.8em;
+
+}
+nav li{
+list-style: none;
+display: inline;
+margin-left: 2em;
+}
+nav a{
+text-decoration: none;
+color: hsl(0,0%,100%)
+}
+.cardOne{
+border: solid maroon;
+width: 55%;
+}
