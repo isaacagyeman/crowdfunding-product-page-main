@@ -28,4 +28,21 @@ text-decoration: none;
 color: hsl(0,0%,100%)
 }
 
+.cardOne{
+background: hsl(0,0%,100%);
+width: 60%;
+}
+.cardOne a{
+text-decoration: none;
+}
+.bookmark{
+border: solid chartreuse;
+}
+.bottomSection{
+border: solid maroon;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+
 
